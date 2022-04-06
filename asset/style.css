@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#timeLeft {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    margin-top: 30%;
+    width: 60%;
+    
+    border: 5px solid black;
+    padding: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/reset.css">
+    <link rel="stylesheet" href="./asset/style.css">
+    <title>Kevin's Quizlet</title>
+</head>
+<body>
+    <section>
+        <div id="messageHere">
+            <button id="viewHighscores" onclick="highScores()" class="hidden">View Highcores</button>
+            <div id="messageHere2"></div>
+            <h6 id="timeLeft"></h6>
+        </div>
+        <div id="showGame">
+            <div id="putQuizHere">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Some explanation here</p>
+                <button id="startButton">Start Quiz</button>
+            </div>
+            <div id="containerQ1" class="hidden">
+                <button id="Q1putChoice1Here"></button>
+                <button id="Q1putChoice2Here"></button>
+                <button id="Q1putChoice3Here"></button>
+                <button id="Q1putChoice4Here"></button>
+            </div>
+            <div id="containerQ2" class="hidden">
+                <button id="Q2putChoice1Here"></button>
+                <button id="Q2putChoice2Here"></button>
+                <button id="Q2putChoice3Here"></button>
+                <button id="Q2putChoice4Here"></button>
+            </div>
+            <div id="containerQ3" class="hidden">
+                <button id="Q3putChoice1Here"></button>
+                <button id="Q3putChoice2Here"></button>
+                <button id="Q3putChoice3Here"></button>
+                <button id="Q3putChoice4Here"></button>
+            </div>
+            <div id="containerQ4" class="hidden">
+                <button id="Q4putChoice1Here"></button>
+                <button id="Q4putChoice2Here"></button>
+                <button id="Q4putChoice3Here"></button>
+                <button id="Q4putChoice4Here"></button>
+            </div>
+            <div id="containerQ5" class="hidden">
+                <button id="Q5putChoice1Here"></button>
+                <button id="Q5putChoice2Here"></button>
+                <button id="Q5putChoice3Here"></button>
+                <button id="Q5putChoice4Here"></button>
+            </div>
+            <form id="dataForm" class="hidden">
+                <label> Name <input id="nickName" type="text" />
+                <button type="submit">Submit</button>
+            </form>
+            <ul id="list"></ul>
+            <div id="datastate"></div>
+            <p id="alertHere"></p>
+        </div>
+        <script src="./asset/script.js"></script>
+
+    </section>
+</body>
+</html>
